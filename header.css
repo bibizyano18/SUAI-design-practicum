@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text {
+    color: #FFFFFF;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition-duration: 0.4s;
+}
+.header-text:hover {
+    opacity: 0.5;
+    cursor:pointer;
+}
