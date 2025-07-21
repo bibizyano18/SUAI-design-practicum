@@ -1,50 +1,9 @@
 body {
     font-family: "Inter", sans-serif;
     background: #29313E;
-    margin: 0;
-}
-.background-ellipses {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
+    padding: 25px 25px;
 }
 
-.ellipse {
-    position: absolute;
-}
-
-.ellipse-1 {
-    left: 200px;
-}
-
-.ellipse-2 {
-    left: 50px;
-}
-
-.main-content {
-    position: relative;
-    z-index: 1; 
-    padding: 40px;
-}
-
-.main__div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-}
-.paragraph {
-    max-width: 65%;
-}
-.paragraph-header {
-    display: inline-block; 
-}
-.main__div__text {
-    max-width: 65%;
-}
 h {
     font-weight: 700;
     font-style: Bold;
@@ -61,24 +20,61 @@ p {
     letter-spacing: 0%;
     color: #777777;
 }
-.div__png {
-
+.header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+.header-text {
+    color: #FFFFFF;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.paragraph {
+    max-width: 65%;
+}
+.paragraph-header {
+    display: inline-block; 
+}
+.main_div-text {
+    max-width: 65%;
+}
+.paragraph-buttons {
+    
+    margin-top: 50px;
+}
+.button-1 {
+    background-color: #4A37D9;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 38px;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.button-1:hover {
+    opacity: 0.8;
+    cursor:pointer;
 }
 img {
-    max-width: 105%;
+    max-width: 100%;
     height: auto;
 }
 
-.div__png__all_names {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-}
-.div__png__names {
-    width: fit-content;
-    padding: 20px;
-}
+
